@@ -14,11 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageEvents:
   - eventType: 0
-    time: 1
+    time: 5
     message: 
     enemyToSpawn: {fileID: 11400000, guid: b4c5c70b8a9181447b9e41aaf8d8717f, type: 2}
     objectToSpawn: {fileID: 0}
-    count: 5
+    count: 10
+    isRepeatedEvent: 1
+    repeatEverySeconds: 0
+    repeatCount: 0
+  - eventType: 0
+    time: 10
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 45f617109a7ef53478f3ee046e4fd5eb, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+    isRepeatedEvent: 1
+    repeatEverySeconds: 0
+    repeatCount: 0
+  - eventType: 1
+    time: 20
+    message: 
+    enemyToSpawn: {fileID: 11400000, guid: 176529f4dbf9aa245b5558fd00432faf, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 1
     isRepeatedEvent: 0
     repeatEverySeconds: 0
     repeatCount: 0
