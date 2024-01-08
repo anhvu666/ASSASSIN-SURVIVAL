@@ -1,0 +1,4 @@
+repository "AssassinSurvivalGame@kuroto369@cloud"
+  path "/"
+    br "/main"
+    co "/main"

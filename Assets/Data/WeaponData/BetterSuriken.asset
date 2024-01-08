@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e9ba6ca8b95d847a8e11d09a22b8ff, type: 3}
+  m_Name: BetterSuriken
+  m_EditorClassIdentifier: 
+  Name: Better Suriken
+  stats:
+    damage: 1000
+    timeToAttack: 2.5
+    numberOfAttacks: 1
+  weaponBasePrefab: {fileID: 2738144360653621555, guid: f0aebb11511514a42bc00aab424bf978, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 097a628497dc6844aac93e7b0d0dc54f, type: 2}
+  - {fileID: 11400000, guid: 8fcd21528ab8fff4185843f467a8e13d, type: 2}
